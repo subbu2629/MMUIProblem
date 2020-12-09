@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.409485">
+    <testcase classname="Mass Mutual Round2 Test" name="UI Automation using Java" time="6.409485">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:87)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:53)&#13;&#10;&#9;at com.mm.qa.stepDefinitions.LoginDemoSteps.the_total_balance_should_be_correct_based_on_the_listed_values(LoginDemoSteps.java:57)&#13;&#10;&#9;at ✽.Then the total balance should be correct based on the listed values(src/test/resources/Features/login.feature:9)&#13;&#10;"><![CDATA[Given User logs into the portal.............................................passed
+When user verifies all the details..........................................passed
+Then the value count should be 5............................................passed
+Then all the values on the screen should be greater than zero...............passed
+Then values should be formatted as currencies...............................passed
+Then the total balance should be correct based on the listed values.........failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.mm.qa.stepDefinitions.LoginDemoSteps.the_total_balance_should_be_correct_based_on_the_listed_values(LoginDemoSteps.java:57)
+	at ✽.Then the total balance should be correct based on the listed values(src/test/resources/Features/login.feature:9)
+]]></failure>
+    </testcase>
+</testsuite>

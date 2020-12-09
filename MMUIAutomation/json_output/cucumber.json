@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "UI Automation using Java",
+        "description": "",
+        "id": "mass-mutual-round2-test;ui-automation-using-java",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6184705700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User logs into the portal",
+            "match": {
+              "location": "LoginDemoSteps.user_logs_into_the_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user verifies all the details",
+            "match": {
+              "location": "LoginDemoSteps.user_verifies_all_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2888200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the value count should be 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginDemoSteps.the_value_count_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107419000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "all the values on the screen should be greater than zero",
+            "match": {
+              "location": "LoginDemoSteps.all_the_values_on_the_screen_should_be_greater_than_zero()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40037600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "values should be formatted as currencies",
+            "match": {
+              "location": "LoginDemoSteps.values_should_be_formatted_as_currencies()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74334400,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.mm.qa.stepDefinitions.LoginDemoSteps.the_total_balance_should_be_correct_based_on_the_listed_values(LoginDemoSteps.java:57)\r\n\tat ✽.Then the total balance should be correct based on the listed values(src/test/resources/Features/login.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the total balance should be correct based on the listed values",
+            "match": {
+              "location": "LoginDemoSteps.the_total_balance_should_be_correct_based_on_the_listed_values()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mass Mutual Round2 Test",
+    "description": "",
+    "id": "mass-mutual-round2-test",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/login.feature"
+  }
+]
